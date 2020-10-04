@@ -12,6 +12,7 @@ function check_pass($i,$dbconfig,$password){
 	$query=$query->get_result();
 	return $query->num_rows;
 }
+<H1>I ADDED SOME CHANGES!!!</H1>
 
 
 if(!isset($_SESSION['email']))
@@ -41,7 +42,7 @@ else
 				alert("Name Updated Successfully.");
 			}
 				else
-					alert("Incorrect Password.");
+					alert("Password is Incorrect.");
 			}
 				
 				else if($_POST['submit']=='enumber')
@@ -70,7 +71,7 @@ else
 					alert("Mobile Number Updated Successfully.");
 				}
 					else
-					alert("Incorrect Password.");
+					alert("Password is Incorrect.");
 				}
 				else if($_POST['submit']=='password')
 				{
